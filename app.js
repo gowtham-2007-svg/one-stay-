@@ -47,7 +47,7 @@ const WEEKLY_CAROUSEL_DATA = [
         type: 'Breakfast',
         title: 'Puri, Sagu',
         desc: 'Fresh golden fluffy pooris served with authentic aromatic vegetable sagu & tea/coffee.',
-        image: 'https://images.unsplash.com/photo-1601050690597-df0568f70950?w=700&auto=format&fit=crop&q=80'
+        image: 'images/tuesday_breakfast.png'
       },
       {
         type: 'Lunch',
