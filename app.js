@@ -116,19 +116,19 @@ const WEEKLY_CAROUSEL_DATA = [
         type: 'Breakfast',
         title: 'Palau',
         desc: 'Aromatic vegetable pulao cooked with whole spices, mint, vegetables & cooling cucumber raita.',
-        image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=700&auto=format&fit=crop&q=80'
+        image: 'images/friday_breakfast.png'
       },
       {
         type: 'Lunch',
         title: 'Rice, Sambar, Pappad, Vegetable',
         desc: 'Steamed rice, special Friday sambar, roasted pappad, potato fry & refreshing buttermilk.',
-        image: 'https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=700&auto=format&fit=crop&q=80'
+        image: 'images/friday_lunch.png'
       },
       {
         type: 'Dinner',
-        title: 'Biryani Feast',
-        desc: 'Grand aromatic dum biryani with marinated pieces, boiled egg, mirchi ka salan & onion raita.',
-        image: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=700&auto=format&fit=crop&q=80'
+        title: 'Biryani',
+        desc: 'Grand aromatic dum biryani with marinated chicken, boiled egg, mirchi ka salan & onion raita.',
+        image: 'images/friday_dinner.png'
       }
     ]
   },
@@ -139,13 +139,13 @@ const WEEKLY_CAROUSEL_DATA = [
         type: 'Breakfast',
         title: 'Upma, Kesari Bath',
         desc: 'Traditional roasted rava upma with coconut chutney paired with sweet aromatic kesari bath (Chow Chow Bath).',
-        image: 'https://images.unsplash.com/photo-1589301760014-d929f3979dbc?w=700&auto=format&fit=crop&q=80'
+        image: 'images/saturday_breakfast.png'
       },
       {
         type: 'Lunch',
         title: 'Rice, Sambar, Pappad, Vegetable',
         desc: 'Steamed rice with authentic Mangalore sambar, crispy pappad, seasonal sabzi & curd.',
-        image: 'https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=700&auto=format&fit=crop&q=80'
+        image: 'images/saturday_lunch.png'
       },
       {
         type: 'Dinner',
