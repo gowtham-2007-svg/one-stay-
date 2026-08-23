@@ -1,0 +1,1429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ONE STAY PG | Luxury, Safe & Affordable PG in Mangaluru</title>
+  <meta name="description" content="One Stay PG - Premium, comfortable, safe and affordable PG for students & working professionals in Kankanady, Mangaluru. 24/7 security, hygienic food, high-speed Wi-Fi & daily housekeeping.">
+  <meta name="keywords" content="One Stay PG, PG in Mangalore, Kankanady PG, Student PG Mangaluru, Working Professional Hostel, Luxury PG Mangalore">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23FFB900'%3E%3Cpath d='M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a3 3 0 003 3h10a3 3 0 003-3v-6.586l.293.293a1 1 0 001.414-1.414l-7-7zM10 18v-5h4v5h-4z'/%3E%3C/svg%3E">
+
+  <!-- Google Fonts: Outfit (Headings) & Inter (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons for high fidelity glyphs -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       HEADER / NAVBAR
+       ========================================================================= -->
+  <header class="site-header" id="navbar">
+    <div class="header-container">
+      
+      <!-- Brand Logo -->
+      <a href="#home" class="brand-logo" id="headerLogo" aria-label="One Stay PG Home">
+        <div class="logo-icon-box">
+          <svg class="logo-svg" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="2" y="2" width="32" height="32" rx="8" fill="#FFF9E6" stroke="#FFB900" stroke-width="2"/>
+            <path d="M18 7L8 15V27C8 28.1 8.9 29 10 29H26C27.1 29 28 28.1 28 27V15L18 7Z" fill="#FFB900"/>
+            <path d="M15 29V20H21V29H15Z" fill="#FFFFFF"/>
+            <path d="M12 14L18 9L24 14" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="logo-text-group">
+          <span class="logo-title">ONE STAY <span class="text-yellow">PG</span></span>
+          <span class="logo-tagline">Stay. Study. Succeed.</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#rooms" class="nav-link">Rooms</a></li>
+          <li><a href="#amenities" class="nav-link">Amenities</a></li>
+          <li><a href="#food" class="nav-link">Food</a></li>
+          <li><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li><a href="#reviews" class="nav-link">Reviews</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Action: Call Now Button -->
+      <div class="header-action">
+        <a href="tel:08722111122" class="btn-call-header" id="headerCallBtn">
+          <i class="fa-solid fa-phone"></i>
+          <span>087221 11122</span>
+        </a>
+        <button class="hamburger-btn" id="mobileMenuToggle" aria-label="Toggle navigation menu">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu Overlay -->
+  <div class="mobile-drawer-overlay" id="drawerOverlay"></div>
+  <aside class="mobile-drawer" id="mobileDrawer" aria-label="Mobile Navigation Menu">
+    <div class="drawer-header">
+      <div class="brand-logo">
+        <div class="logo-icon-box">
+          <i class="fa-solid fa-house text-yellow fa-lg"></i>
+        </div>
+        <div class="logo-text-group">
+          <span class="logo-title">ONE STAY <span class="text-yellow">PG</span></span>
+          <span class="logo-tagline">Stay. Study. Succeed.</span>
+        </div>
+      </div>
+      <button class="drawer-close-btn" id="drawerCloseBtn" aria-label="Close navigation menu">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+    
+    <ul class="drawer-links">
+      <li><a href="#home" class="drawer-link"><i class="fa-solid fa-house"></i> Home</a></li>
+      <li><a href="#about" class="drawer-link"><i class="fa-solid fa-circle-info"></i> About</a></li>
+      <li><a href="#rooms" class="drawer-link"><i class="fa-solid fa-bed"></i> Rooms</a></li>
+      <li><a href="#amenities" class="drawer-link"><i class="fa-solid fa-shield-halved"></i> Amenities</a></li>
+      <li><a href="#food" class="drawer-link"><i class="fa-solid fa-utensils"></i> Food</a></li>
+      <li><a href="#gallery" class="drawer-link"><i class="fa-solid fa-images"></i> Gallery</a></li>
+      <li><a href="#reviews" class="drawer-link"><i class="fa-solid fa-star"></i> Reviews</a></li>
+      <li><a href="#contact" class="drawer-link"><i class="fa-solid fa-map-location-dot"></i> Contact</a></li>
+    </ul>
+
+    <div class="drawer-footer">
+      <a href="tel:08722111122" class="btn-call-drawer">
+        <i class="fa-solid fa-phone"></i> Call 087221 11122
+      </a>
+      <button class="btn-schedule-drawer" onclick="openScheduleModal()">
+        <i class="fa-regular fa-calendar-check"></i> Schedule a Visit
+      </button>
+    </div>
+  </aside>
+
+  <!-- =========================================================================
+       HERO SECTION
+       ========================================================================= -->
+  <section class="hero-section" id="home">
+    <div class="container hero-container">
+      
+      <!-- Hero Left: Content & Actions -->
+      <div class="hero-left-content">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          <span>Mangaluru's Top Rated Student & Executive Stay</span>
+        </div>
+
+        <h1 class="hero-headline">
+          More Than Just<br>
+          A Room,<br>
+          It's Your <span class="text-yellow highlight-word">Home.</span>
+        </h1>
+
+        <p class="hero-subtext">
+          Comfortable, Safe & Affordable PG for Students & Working Professionals in the heart of Mangaluru.
+        </p>
+
+        <!-- 4 Quick Highlight Feature Badges -->
+        <div class="hero-feature-pills">
+          <div class="feature-pill">
+            <div class="pill-icon-circle">
+              <i class="fa-regular fa-clock"></i>
+            </div>
+            <span class="pill-label">Open 24 Hours</span>
+          </div>
+
+          <div class="feature-pill">
+            <div class="pill-icon-circle">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <span class="pill-label">Secure Stay</span>
+          </div>
+
+          <div class="feature-pill">
+            <div class="pill-icon-circle">
+              <i class="fa-solid fa-wifi"></i>
+            </div>
+            <span class="pill-label">Free Wi-Fi</span>
+          </div>
+
+          <div class="feature-pill">
+            <div class="pill-icon-circle">
+              <i class="fa-solid fa-bell-concierge"></i>
+            </div>
+            <span class="pill-label">Hygienic Food</span>
+          </div>
+        </div>
+
+        <!-- Primary Action Buttons -->
+        <div class="hero-action-buttons">
+          <a href="tel:08722111122" class="btn-primary-yellow" id="heroCallBtn">
+            <i class="fa-solid fa-phone"></i>
+            <span>Call Now</span>
+          </a>
+          <button class="btn-secondary-white" id="heroScheduleBtn" onclick="openScheduleModal()">
+            <i class="fa-regular fa-calendar-check text-yellow"></i>
+            <span>Schedule a Visit</span>
+          </button>
+        </div>
+
+        <!-- Trust Badges (Links to Google Maps Reviews) -->
+        <a href="https://www.google.com/maps/place/One+Stay+Men%E2%80%99s+hostel/@12.869329,74.858307,17z/data=!4m8!3m7!1s0x3ba35b669ff0c28b:0x47bee73e6071db6!8m2!3d12.869329!4d74.858307!9m1!1b1!16s%2Fg%2F11tsyfs7km" 
+           target="_blank" 
+           rel="noopener" 
+           class="hero-trust-indicators" 
+           title="View Google Reviews for One Stay Men's Hostel">
+          <div class="trust-avatars">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80" alt="Resident" class="trust-avatar">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80" alt="Resident" class="trust-avatar">
+            <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop&q=80" alt="Resident" class="trust-avatar">
+            <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=100&auto=format&fit=crop&q=80" alt="Resident" class="trust-avatar">
+          </div>
+          <div class="trust-text">
+            <div class="stars-row">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span class="rating-num">4.9/5</span>
+            </div>
+            <span class="trust-count">250+ Verified Google Reviews in Mangaluru <i class="fa-solid fa-arrow-up-right-from-square text-yellow" style="font-size: 0.75rem; margin-left: 4px;"></i></span>
+          </div>
+        </a>
+
+      </div>
+
+      <!-- Hero Right: High Quality PG Building Visual with Signboard & 2-Second Animation -->
+      <div class="hero-right-visual">
+        <div class="building-card-wrapper" id="heroBuildingWrapper">
+          <div class="building-image-container" id="heroBuildingContainer">
+            
+            <!-- Rotating 2 Official One Stay PG Images (Cycles every 2 seconds) -->
+            <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmYHTuZZSKxGkQPkWhNaVBiWvJ6l4QXtmGpbWkKDa6082Fj1cL10n2_2BLogsrk1KsrrG01NXmsNampYR-GHvfoD9QFWM-s4m5RbdncIvxRBF3EhOUIMI3Iu_ZCWhISmNiGmiDAKg=w1200-h800-k-no" 
+                 alt="ONE STAY PG Main Building in Mangaluru" 
+                 class="building-image hero-slide-img active" 
+                 data-slide-index="0">
+            <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmtkDhtMkcN45jqTGx_cGSmwwYaqVSv4Si7eWrWcde1HxR0-gm_mwUYCZ8Z7RFIGSfN6D9GrPNpWWh5WTKOcgAF_xl0WSkFnxrH0obTWU-9K-1Y1a9aKK9LODCOFWh5YM9_0kHB=w1200-h800-k-no" 
+                 alt="ONE STAY PG Luxury Modern Washroom" 
+                 class="building-image hero-slide-img" 
+                 data-slide-index="1">
+            
+            <!-- Superimposed Glowing ONE STAY PG Signboard -->
+            <div class="building-signboard">
+              <div class="signboard-icon">
+                <i class="fa-solid fa-house"></i>
+              </div>
+              <span class="signboard-text">ONE STAY <span class="signboard-pg">PG</span></span>
+            </div>
+
+            <!-- Floating Status Pill -->
+            <div class="building-live-badge">
+              <span class="live-pulse"></span>
+              <span>Admissions Open for 2025-26</span>
+            </div>
+
+            <!-- Hero Image Slide Progress Dots -->
+            <div class="hero-img-dots" id="heroImgDots">
+              <span class="hero-dot active" data-hero-dot="0"></span>
+              <span class="hero-dot" data-hero-dot="1"></span>
+            </div>
+
+          </div>
+          <div class="building-bg-glow"></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       FLOATING LOCATION & CONTACT CARD
+       ========================================================================= -->
+  <section class="floating-info-section" id="quick-info">
+    <div class="container">
+      <div class="floating-info-card">
+        
+        <!-- Location Item -->
+        <div class="info-item location-item">
+          <div class="info-icon-wrapper">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <div class="info-content">
+            <h3 class="info-title">Location</h3>
+            <p class="info-detail">VV95+Q83, Kankanady Bypass Rd, Bendoorwell, Kankanady, Mangaluru, Karnataka 575002</p>
+          </div>
+        </div>
+
+        <div class="info-divider"></div>
+
+        <!-- Hours Item -->
+        <div class="info-item hours-item">
+          <div class="info-icon-wrapper">
+            <i class="fa-regular fa-clock"></i>
+          </div>
+          <div class="info-content">
+            <h3 class="info-title">Open 24 Hours</h3>
+            <p class="info-detail">We are open all day, every day!</p>
+          </div>
+        </div>
+
+        <div class="info-divider"></div>
+
+        <!-- Phone Item -->
+        <div class="info-item phone-item">
+          <div class="info-icon-wrapper">
+            <i class="fa-solid fa-phone-volume"></i>
+          </div>
+          <div class="info-content">
+            <h3 class="info-title">087221 11122</h3>
+            <p class="info-detail">Click to call us anytime</p>
+          </div>
+        </div>
+
+        <!-- View On Google Maps / Reviews CTA -->
+        <div class="info-action">
+          <a href="https://www.google.com/maps/place/One+Stay+Men%E2%80%99s+hostel/@12.869329,74.858307,17z/data=!4m8!3m7!1s0x3ba35b669ff0c28b:0x47bee73e6071db6!8m2!3d12.869329!4d74.858307!9m1!1b1!16s%2Fg%2F11tsyfs7km" 
+             target="_blank" 
+             rel="noopener" 
+             class="btn-outline-yellow" 
+             id="viewOnMapBtn">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Google Reviews</span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       WHY CHOOSE ONE STAY PG (6 FEATURE CARDS)
+       ========================================================================= -->
+  <section class="why-choose-section" id="about">
+    <div class="container">
+      
+      <div class="section-header text-center">
+        <h2 class="section-title">Why Choose <span class="text-yellow">One Stay PG?</span></h2>
+        <p class="section-subtitle">Experience a peaceful, hassle-free lifestyle crafted specifically for students and professionals.</p>
+      </div>
+
+      <div class="why-choose-grid">
+        
+        <!-- Feature 1 -->
+        <div class="feature-card" data-card="rooms">
+          <div class="feature-card-icon">
+            <i class="fa-solid fa-bed"></i>
+          </div>
+          <h3 class="feature-card-title">Comfortable Rooms</h3>
+          <p class="feature-card-desc">Spacious, clean & well-ventilated rooms for a peaceful stay.</p>
+          <div class="feature-card-accent"></div>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="feature-card" data-card="security">
+          <div class="feature-card-icon">
+            <i class="fa-solid fa-shield-halved"></i>
+          </div>
+          <h3 class="feature-card-title">24/7 Security</h3>
+          <p class="feature-card-desc">CCTV surveillance & secure environment for your safety.</p>
+          <div class="feature-card-accent"></div>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="feature-card" data-card="food">
+          <div class="feature-card-icon">
+            <i class="fa-solid fa-bowl-rice"></i>
+          </div>
+          <h3 class="feature-card-title">Hygienic Food</h3>
+          <p class="feature-card-desc">Nutritious & tasty meals prepared fresh every day.</p>
+          <div class="feature-card-accent"></div>
+        </div>
+
+        <!-- Feature 4 -->
+        <div class="feature-card" data-card="wifi">
+          <div class="feature-card-icon">
+            <i class="fa-solid fa-wifi"></i>
+          </div>
+          <h3 class="feature-card-title">High Speed Wi-Fi</h3>
+          <p class="feature-card-desc">Stay connected with fast & reliable internet.</p>
+          <div class="feature-card-accent"></div>
+        </div>
+
+        <!-- Feature 5 -->
+        <div class="feature-card" data-card="housekeeping">
+          <div class="feature-card-icon">
+            <i class="fa-solid fa-broom"></i>
+          </div>
+          <h3 class="feature-card-title">Daily Housekeeping</h3>
+          <p class="feature-card-desc">Clean & hygienic rooms with regular housekeeping.</p>
+          <div class="feature-card-accent"></div>
+        </div>
+
+        <!-- Feature 6 -->
+        <div class="feature-card" data-card="all-inclusive">
+          <div class="feature-card-icon">
+            <i class="fa-solid fa-plug-circle-check"></i>
+          </div>
+          <h3 class="feature-card-title">All Inclusive</h3>
+          <p class="feature-card-desc">No extra bills! All utilities included in one fee.</p>
+          <div class="feature-card-accent"></div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       OUR ROOMS SECTION (CAROUSEL + VISIT CTA CARD)
+       ========================================================================= -->
+  <section class="our-rooms-section" id="rooms">
+    <div class="container">
+      
+      <div class="section-header-flex">
+        <div>
+          <h2 class="section-title">Our <span class="text-yellow">Rooms</span></h2>
+          <p class="section-subtitle">Thoughtfully furnished accommodations designed for privacy, relaxation, and focused learning.</p>
+        </div>
+        <div class="carousel-nav-controls">
+          <button class="carousel-arrow prev" id="roomPrevBtn" aria-label="Previous Rooms">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <button class="carousel-arrow next" id="roomNextBtn" aria-label="Next Rooms">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="rooms-carousel-track-wrapper">
+        <div class="rooms-carousel-track" id="roomsTrack">
+          
+          <!-- Room Card 1: Single Room -->
+          <div class="room-card" onclick="openRoomModal('single')">
+            <div class="room-card-image-box">
+              <img src="https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=700&auto=format&fit=crop&q=80" alt="Single Room One Stay PG" class="room-img">
+              <span class="room-badge">Premium Single</span>
+            </div>
+            <div class="room-card-content">
+              <div class="room-title-row">
+                <h3 class="room-name">Single Room</h3>
+                <button class="room-circle-arrow-btn" aria-label="View Single Room Details">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+              <p class="room-desc">Perfect for privacy & peaceful study</p>
+              <div class="room-specs-list">
+                <span><i class="fa-solid fa-bed text-yellow"></i> 1 Bed</span>
+                <span><i class="fa-solid fa-bath text-yellow"></i> Attached Bath</span>
+                <span><i class="fa-solid fa-snowflake text-yellow"></i> AC / Non-AC</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Room Card 2: Double Sharing -->
+          <div class="room-card" onclick="openRoomModal('double')">
+            <div class="room-card-image-box">
+              <img src="https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?w=700&auto=format&fit=crop&q=80" alt="Double Sharing Room One Stay PG" class="room-img">
+              <span class="room-badge">Popular Choice</span>
+            </div>
+            <div class="room-card-content">
+              <div class="room-title-row">
+                <h3 class="room-name">Double Sharing</h3>
+                <button class="room-circle-arrow-btn" aria-label="View Double Sharing Details">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+              <p class="room-desc">Comfortable for two persons</p>
+              <div class="room-specs-list">
+                <span><i class="fa-solid fa-bed text-yellow"></i> 2 Beds</span>
+                <span><i class="fa-solid fa-bath text-yellow"></i> Attached Bath</span>
+                <span><i class="fa-solid fa-book-open text-yellow"></i> 2 Study Desks</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Room Card 3: Triple Sharing -->
+          <div class="room-card" onclick="openRoomModal('triple')">
+            <div class="room-card-image-box">
+              <img src="https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=700&auto=format&fit=crop&q=80" alt="Triple Sharing Room One Stay PG" class="room-img">
+              <span class="room-badge">Spacious</span>
+            </div>
+            <div class="room-card-content">
+              <div class="room-title-row">
+                <h3 class="room-name">Triple Sharing</h3>
+                <button class="room-circle-arrow-btn" aria-label="View Triple Sharing Details">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+              <p class="room-desc">Affordable & spacious sharing rooms</p>
+              <div class="room-specs-list">
+                <span><i class="fa-solid fa-bed text-yellow"></i> 3 Beds</span>
+                <span><i class="fa-solid fa-lock text-yellow"></i> 3 Lockers</span>
+                <span><i class="fa-solid fa-wind text-yellow"></i> Cross Ventilation</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Room Card 4: Four Sharing -->
+          <div class="room-card" onclick="openRoomModal('four')">
+            <div class="room-card-image-box">
+              <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=700&auto=format&fit=crop&q=80" alt="Four Sharing Room One Stay PG" class="room-img">
+              <span class="room-badge">Best Value</span>
+            </div>
+            <div class="room-card-content">
+              <div class="room-title-row">
+                <h3 class="room-name">Four Sharing</h3>
+                <button class="room-circle-arrow-btn" aria-label="View Four Sharing Details">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+              <p class="room-desc">Best option for budget friendly stay</p>
+              <div class="room-specs-list">
+                <span><i class="fa-solid fa-bed text-yellow"></i> 4 Beds</span>
+                <span><i class="fa-solid fa-wallet text-yellow"></i> Pocket Friendly</span>
+                <span><i class="fa-solid fa-shirt text-yellow"></i> Individual Wardrobes</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Room Card 5: Visit Us Today! CTA Card -->
+          <div class="visit-cta-card">
+            <div class="visit-cta-icon-box">
+              <i class="fa-regular fa-calendar-check"></i>
+            </div>
+            <h3 class="visit-cta-title">Visit Us Today!</h3>
+            <p class="visit-cta-desc">Come take a tour and choose your perfect room.</p>
+            <button class="btn-primary-yellow visit-btn" onclick="openScheduleModal()">
+              Schedule Visit
+            </button>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       HEALTHY & DELICIOUS FOOD SECTION (7-DAY ANIMATED CAROUSEL)
+       ========================================================================= -->
+  <section class="food-section" id="food">
+    <div class="container">
+      
+      <div class="food-section-title-wrap text-center">
+        <h2 class="section-title">Healthy & Delicious <span class="text-yellow">Food,</span> Every Day!</h2>
+        <p class="section-subtitle">We serve nutritious, home-style meals prepared fresh with quality ingredients.</p>
+      </div>
+
+      <div class="food-main-layout single-layout">
+
+        <!-- Food Carousel Showcase (Full Width) -->
+        <div class="food-carousel-showcase" id="foodCarouselSection">
+          
+          <!-- Day Indicator Row: Monday • Tuesday • Wednesday • Thursday • Friday • Saturday • Sunday -->
+          <div class="food-day-indicator-bar" id="foodDayIndicators" role="tablist" aria-label="Days of the Week">
+            <button class="food-day-btn active" data-day-index="0">Monday</button>
+            <span class="day-sep">•</span>
+            <button class="food-day-btn" data-day-index="1">Tuesday</button>
+            <span class="day-sep">•</span>
+            <button class="food-day-btn" data-day-index="2">Wednesday</button>
+            <span class="day-sep">•</span>
+            <button class="food-day-btn" data-day-index="3">Thursday</button>
+            <span class="day-sep">•</span>
+            <button class="food-day-btn" data-day-index="4">Friday</button>
+            <span class="day-sep">•</span>
+            <button class="food-day-btn" data-day-index="5">Saturday</button>
+            <span class="day-sep">•</span>
+            <button class="food-day-btn" data-day-index="6">Sunday</button>
+          </div>
+
+          <!-- 3 Food Cards Sliding Viewport -->
+          <div class="food-cards-viewport" id="foodCardsViewport">
+            <div class="food-cards-slider-track" id="foodCardsTrack">
+              <!-- Dynamically rendered via app.js -->
+            </div>
+          </div>
+
+          <!-- Subtle Progress Dots Below Cards -->
+          <div class="food-progress-dots" id="foodProgressDots">
+            <span class="progress-dot active" data-dot-index="0" title="Monday"></span>
+            <span class="progress-dot" data-dot-index="1" title="Tuesday"></span>
+            <span class="progress-dot" data-dot-index="2" title="Wednesday"></span>
+            <span class="progress-dot" data-dot-index="3" title="Thursday"></span>
+            <span class="progress-dot" data-dot-index="4" title="Friday"></span>
+            <span class="progress-dot" data-dot-index="5" title="Saturday"></span>
+            <span class="progress-dot" data-dot-index="6" title="Sunday"></span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="food-action-center text-center">
+        <button class="btn-primary-yellow" id="viewFoodMenuBtn" onclick="openFoodMenuModal()">
+          <i class="fa-solid fa-utensils"></i>
+          <span>View Full Weekly Food Menu</span>
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       AMENITIES FULL BREAKDOWN SECTION
+       ========================================================================= -->
+  <section class="amenities-section" id="amenities">
+    <div class="container">
+      
+      <div class="section-header text-center">
+        <h2 class="section-title">All-Inclusive <span class="text-yellow">Amenities</span></h2>
+        <p class="section-subtitle">Everything you need for an effortless, comfortable, and productive stay.</p>
+      </div>
+
+      <div class="amenities-grid">
+        <div class="amenity-item-card">
+          <div class="amenity-icon"><i class="fa-solid fa-video text-yellow"></i></div>
+          <div class="amenity-info">
+            <h4>24/7 CCTV & Security</h4>
+            <p>Monitored premises and secure biometric access.</p>
+          </div>
+        </div>
+        <div class="amenity-item-card">
+          <div class="amenity-icon"><i class="fa-solid fa-wifi text-yellow"></i></div>
+          <div class="amenity-info">
+            <h4>High Speed Fiber Wi-Fi</h4>
+            <p>Dedicated bandwidth on all floors for study & work.</p>
+          </div>
+        </div>
+        <div class="amenity-item-card">
+          <div class="amenity-icon"><i class="fa-solid fa-faucet-drip text-yellow"></i></div>
+          <div class="amenity-info">
+            <h4>RO Purified Drinking Water</h4>
+            <p>Multi-stage filtered hot & cold water dispensers.</p>
+          </div>
+        </div>
+        <div class="amenity-item-card">
+          <div class="amenity-icon"><i class="fa-solid fa-bolt text-yellow"></i></div>
+          <div class="amenity-info">
+            <h4>24/7 Power Backup</h4>
+            <p>High-capacity generator so your work is never interrupted.</p>
+          </div>
+        </div>
+        <div class="amenity-item-card">
+          <div class="amenity-icon"><i class="fa-solid fa-soap text-yellow"></i></div>
+          <div class="amenity-info">
+            <h4>Daily Housekeeping</h4>
+            <p>Professional cleaning of rooms, corridors & washrooms.</p>
+          </div>
+        </div>
+        <div class="amenity-item-card">
+          <div class="amenity-icon"><i class="fa-solid fa-shirt text-yellow"></i></div>
+          <div class="amenity-info">
+            <h4>Laundry & Washing Machine</h4>
+            <p>Automatic washing machines and dedicated drying zones.</p>
+          </div>
+        </div>
+        <div class="amenity-item-card">
+          <div class="amenity-icon"><i class="fa-solid fa-square-parking text-yellow"></i></div>
+          <div class="amenity-info">
+            <h4>Two-Wheeler & Car Parking</h4>
+            <p>Spacious, secure covered parking area within gates.</p>
+          </div>
+        </div>
+        <div class="amenity-item-card">
+          <div class="amenity-icon"><i class="fa-solid fa-book-open-reader text-yellow"></i></div>
+          <div class="amenity-info">
+            <h4>Quiet Study Lounge</h4>
+            <p>Peaceful, distraction-free environment for exams.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       PHOTO GALLERY (FILTERABLE & LIGHTBOX)
+       ========================================================================= -->
+  <section class="gallery-section" id="gallery">
+    <div class="container">
+      
+      <div class="section-header text-center">
+        <h2 class="section-title">Life at <span class="text-yellow">One Stay PG</span></h2>
+        <p class="section-subtitle">Take a virtual tour through our premises, dining spaces, bedrooms, and amenities.</p>
+      </div>
+
+      <!-- Gallery Filter Tabs -->
+      <div class="gallery-filter-tabs">
+        <button class="filter-tab active" data-filter="all">All Photos</button>
+        <button class="filter-tab" data-filter="exterior">Building Exterior</button>
+        <button class="filter-tab" data-filter="rooms">Bedrooms</button>
+        <button class="filter-tab" data-filter="dining">Dining & Food</button>
+        <button class="filter-tab" data-filter="common">Lounge & Study</button>
+      </div>
+
+      <!-- Gallery Masonry Grid -->
+      <div class="gallery-grid" id="galleryGrid">
+        
+        <div class="gallery-item" data-category="exterior" onclick="openLightbox(0)">
+          <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmYHTuZZSKxGkQPkWhNaVBiWvJ6l4QXtmGpbWkKDa6082Fj1cL10n2_2BLogsrk1KsrrG01NXmsNampYR-GHvfoD9QFWM-s4m5RbdncIvxRBF3EhOUIMI3Iu_ZCWhISmNiGmiDAKg=w800-k-no" alt="One Stay PG Building Facade">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Building Exterior</span>
+            <span class="gallery-caption">One Stay PG building facade on Kankanady Bypass Rd</span>
+            <i class="fa-solid fa-expand gallery-zoom-icon"></i>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="rooms" onclick="openLightbox(1)">
+          <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmtkDhtMkcN45jqTGx_cGSmwwYaqVSv4Si7eWrWcde1HxR0-gm_mwUYCZ8Z7RFIGSfN6D9GrPNpWWh5WTKOcgAF_xl0WSkFnxrH0obTWU-9K-1Y1a9aKK9LODCOFWh5YM9_0kHB=w800-k-no" alt="Modern Luxury Washroom & Vanity">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Washroom & Vanity</span>
+            <span class="gallery-caption">Modern luxury washroom with LED backlit vanity mirror</span>
+            <i class="fa-solid fa-expand gallery-zoom-icon"></i>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="rooms" onclick="openLightbox(2)">
+          <img src="https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=800&auto=format&fit=crop&q=80" alt="Executive Room">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Bedrooms</span>
+            <span class="gallery-caption">Bright, sanitized rooms with ergonomic study desk</span>
+            <i class="fa-solid fa-expand gallery-zoom-icon"></i>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="dining" onclick="openLightbox(3)">
+          <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&auto=format&fit=crop&q=80" alt="Dining Hall">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Dining & Food</span>
+            <span class="gallery-caption">Clean, air-conditioned dining area</span>
+            <i class="fa-solid fa-expand gallery-zoom-icon"></i>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="rooms" onclick="openLightbox(4)">
+          <img src="https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?w=800&auto=format&fit=crop&q=80" alt="Double Sharing Room">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Bedrooms</span>
+            <span class="gallery-caption">Double sharing room with individual wardrobes</span>
+            <i class="fa-solid fa-expand gallery-zoom-icon"></i>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="common" onclick="openLightbox(5)">
+          <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=800&auto=format&fit=crop&q=80" alt="Study Lounge">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Lounge & Study</span>
+            <span class="gallery-caption">Cozy quiet zone for late night exam preps</span>
+            <i class="fa-solid fa-expand gallery-zoom-icon"></i>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="dining" onclick="openLightbox(6)">
+          <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=800&auto=format&fit=crop&q=80" alt="Hygienic Commercial Kitchen">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Dining & Food</span>
+            <span class="gallery-caption">Stainless steel hygienic commercial kitchen</span>
+            <i class="fa-solid fa-expand gallery-zoom-icon"></i>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       NEARBY CONNECTIVITY & LOCAL LANDMARKS (MANGALURU)
+       ========================================================================= -->
+  <section class="landmarks-section" id="landmarks">
+    <div class="container">
+      
+      <div class="section-header text-center">
+        <h2 class="section-title">Strategic Location in <span class="text-yellow">Mangaluru</span></h2>
+        <p class="section-subtitle">Situated at Kankanady Bypass Rd, Bendoorwell – close to major hospitals, colleges, and transport hubs.</p>
+      </div>
+
+      <!-- Dual Direction Animated Landmark Rows -->
+      <div class="landmarks-marquee-container">
+        
+        <!-- Row 1: Moving Right to Left -->
+        <div class="landmarks-marquee-row marquee-left">
+          <div class="marquee-track">
+            
+            <div class="landmark-card">
+              <div class="landmark-icon-box"><i class="fa-solid fa-hospital-user text-yellow"></i></div>
+              <div class="landmark-details">
+                <h4>Father Muller Hospital & College</h4>
+                <span class="landmark-distance"><i class="fa-solid fa-person-walking text-yellow"></i> 3 mins (300 m)</span>
+              </div>
+            </div>
+
+            <div class="landmark-card">
+              <div class="landmark-icon-box"><i class="fa-solid fa-user-doctor text-yellow"></i></div>
+              <div class="landmark-details">
+                <h4>KMC Medical College / Hospital</h4>
+                <span class="landmark-distance"><i class="fa-solid fa-car text-yellow"></i> 7 mins (2.4 km)</span>
+              </div>
+            </div>
+
+            <div class="landmark-card">
+              <div class="landmark-icon-box"><i class="fa-solid fa-graduation-cap text-yellow"></i></div>
+              <div class="landmark-details">
+                <h4>St. Aloysius College / University</h4>
+                <span class="landmark-distance"><i class="fa-solid fa-car text-yellow"></i> 6 mins (2.1 km)</span>
+              </div>
+            </div>
+
+            <div class="landmark-card">
+              <div class="landmark-icon-box"><i class="fa-solid fa-hospital text-yellow"></i></div>
+              <div class="landmark-details">
+                <h4>Yenepoya Medical College</h4>
+                <span class="landmark-distance"><i class="fa-solid fa-car text-yellow"></i> 14 mins (6.2 km)</span>
+              </div>
+            </div>
+
+            <div class="landmark-card">
+              <div class="landmark-icon-box"><i class="fa-solid fa-heart-pulse text-yellow"></i></div>
+              <div class="landmark-details">
+                <h4>Indiana Hospital & Heart Institute</h4>
+                <span class="landmark-distance"><i class="fa-solid fa-car text-yellow"></i> 8 mins (3.2 km)</span>
+              </div>
+            </div>
+
+            <!-- Duplicate Set for Seamless Infinite Loop (Row 1) -->
+            <div class="landmark-card" aria-hidden="true">
+              <div class="landmark-icon-box"><i class="fa-solid fa-hospital-user text-yellow"></i></div>
+              <div class="landmark-details">
+                <h4>Father Muller Hospital & College</h4>
+                <span class="landmark-distance"><i class="fa-solid fa-person-walking text-yellow"></i> 3 mins (300 m)</span>
+              </div>
+            </div>
+
+            <div class="landmark-card" aria-hidden="true">
+              <div class="landmark-icon-box"><i class="fa-solid fa-user-doctor text-yellow"></i></div>
+              <div class="landmark-details">
+                <h4>KMC Medical College / Hospital</h4>
+                <span class="landmark-distance"><i class="fa-solid fa-car text-yellow"></i> 7 mins (2.4 km)</span>
+              </div>
+            </div>
+
+            <div class="landmark-card" aria-hidden="true">
+              <div class="landmark-icon-box"><i class="fa-solid fa-graduation-cap text-yellow"></i></div>
+              <div class="landmark-details">
+                <h4>St. Aloysius College / University</h4>
+                <span class="landmark-distance"><i class="fa-solid fa-car text-yellow"></i> 6 mins (2.1 km)</span>
+              </div>
+            </div>
+
+            <div class="landmark-card" aria-hidden="true">
+              <div class="landmark-icon-box"><i class="fa-solid fa-hospital text-yellow"></i></div>
+              <div class="landmark-details">
+                <h4>Yenepoya Medical College</h4>
+                <span class="landmark-distance"><i class="fa-solid fa-car text-yellow"></i> 14 mins (6.2 km)</span>
+              </div>
+            </div>
+
+            <div class="landmark-card" aria-hidden="true">
+              <div class="landmark-icon-box"><i class="fa-solid fa-heart-pulse text-yellow"></i></div>
+              <div class="landmark-details">
+                <h4>Indiana Hospital & Heart Institute</h4>
+                <span class="landmark-distance"><i class="fa-solid fa-car text-yellow"></i> 8 mins (3.2 km)</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Row 2: Moving Left to Right -->
+        <div class="landmarks-marquee-row marquee-right">
+          <div class="marquee-track">
+            
+            <div class="landmark-card">
+              <div class="landmark-icon-box"><i class="fa-solid fa-train-subway text-yellow"></i></div>
+              <div class="landmark-details">
+                <h4>Mangalore Central Railway Station</h4>
+                <span class="landmark-distance"><i class="fa-solid fa-car text-yellow"></i> 8 mins (3.0 km)</span>
+              </div>
+            </div>
+
+            <div class="landmark-card">
+              <div class="landmark-icon-box"><i class="fa-solid fa-bag-shopping text-yellow"></i></div>
+              <div class="landmark-details">
+                <h4>City Centre & Forum Fiza Malls</h4>
+                <span class="landmark-distance"><i class="fa-solid fa-car text-yellow"></i> 8 mins (2.8 km)</span>
+              </div>
+            </div>
+
+            <div class="landmark-card">
+              <div class="landmark-icon-box"><i class="fa-solid fa-train text-yellow"></i></div>
+              <div class="landmark-details">
+                <h4>Mangalore Junction Station</h4>
+                <span class="landmark-distance"><i class="fa-solid fa-car text-yellow"></i> 10 mins (4.2 km)</span>
+              </div>
+            </div>
+
+            <div class="landmark-card">
+              <div class="landmark-icon-box"><i class="fa-solid fa-bus text-yellow"></i></div>
+              <div class="landmark-details">
+                <h4>KSRTC Bus Terminal Bejai</h4>
+                <span class="landmark-distance"><i class="fa-solid fa-car text-yellow"></i> 12 mins (4.8 km)</span>
+              </div>
+            </div>
+
+            <div class="landmark-card">
+              <div class="landmark-icon-box"><i class="fa-solid fa-plane-departure text-yellow"></i></div>
+              <div class="landmark-details">
+                <h4>Mangaluru Int'l Airport (IXE)</h4>
+                <span class="landmark-distance"><i class="fa-solid fa-car text-yellow"></i> 25 mins (14 km)</span>
+              </div>
+            </div>
+
+            <!-- Duplicate Set for Seamless Infinite Loop (Row 2) -->
+            <div class="landmark-card" aria-hidden="true">
+              <div class="landmark-icon-box"><i class="fa-solid fa-train-subway text-yellow"></i></div>
+              <div class="landmark-details">
+                <h4>Mangalore Central Railway Station</h4>
+                <span class="landmark-distance"><i class="fa-solid fa-car text-yellow"></i> 8 mins (3.0 km)</span>
+              </div>
+            </div>
+
+            <div class="landmark-card" aria-hidden="true">
+              <div class="landmark-icon-box"><i class="fa-solid fa-bag-shopping text-yellow"></i></div>
+              <div class="landmark-details">
+                <h4>City Centre & Forum Fiza Malls</h4>
+                <span class="landmark-distance"><i class="fa-solid fa-car text-yellow"></i> 8 mins (2.8 km)</span>
+              </div>
+            </div>
+
+            <div class="landmark-card" aria-hidden="true">
+              <div class="landmark-icon-box"><i class="fa-solid fa-train text-yellow"></i></div>
+              <div class="landmark-details">
+                <h4>Mangalore Junction Station</h4>
+                <span class="landmark-distance"><i class="fa-solid fa-car text-yellow"></i> 10 mins (4.2 km)</span>
+              </div>
+            </div>
+
+            <div class="landmark-card" aria-hidden="true">
+              <div class="landmark-icon-box"><i class="fa-solid fa-bus text-yellow"></i></div>
+              <div class="landmark-details">
+                <h4>KSRTC Bus Terminal Bejai</h4>
+                <span class="landmark-distance"><i class="fa-solid fa-car text-yellow"></i> 12 mins (4.8 km)</span>
+              </div>
+            </div>
+
+            <div class="landmark-card" aria-hidden="true">
+              <div class="landmark-icon-box"><i class="fa-solid fa-plane-departure text-yellow"></i></div>
+              <div class="landmark-details">
+                <h4>Mangaluru Int'l Airport (IXE)</h4>
+                <span class="landmark-distance"><i class="fa-solid fa-car text-yellow"></i> 25 mins (14 km)</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       REVIEWS / TESTIMONIALS SECTION
+       ========================================================================= -->
+  <section class="reviews-section" id="reviews">
+    <div class="container">
+      
+      <div class="section-header-flex">
+        <div>
+          <h2 class="section-title">What Our <span class="text-yellow">Residents Say</span></h2>
+          <p class="section-subtitle">Real experiences from students and professionals who call One Stay PG home.</p>
+        </div>
+        <div class="carousel-nav-controls">
+          <button class="carousel-arrow prev" id="reviewPrevBtn" aria-label="Previous Review">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <button class="carousel-arrow next" id="reviewNextBtn" aria-label="Next Review">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="reviews-carousel-track-wrapper">
+        <div class="reviews-carousel-track" id="reviewsTrack">
+          
+          <!-- Testimonial 1: Rohith -->
+          <div class="review-card">
+            <div class="review-stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="review-quote">
+              “One Stay PG feels like home. The rooms are clean, food is amazing and the ambience is perfect for study.”
+            </p>
+            <div class="reviewer-meta">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=120&auto=format&fit=crop&q=80" alt="Rohith" class="reviewer-img">
+              <div class="reviewer-info">
+                <span class="reviewer-name">– Rohith</span>
+                <span class="reviewer-role">Student (Father Muller)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 2: Ananya -->
+          <div class="review-card">
+            <div class="review-stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="review-quote">
+              “Safe, secure and very well maintained. The staff are very friendly and always helpful.”
+            </p>
+            <div class="reviewer-meta">
+              <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=120&auto=format&fit=crop&q=80" alt="Ananya" class="reviewer-img">
+              <div class="reviewer-info">
+                <span class="reviewer-name">– Ananya</span>
+                <span class="reviewer-role">Working Professional (Infosys)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 3: Adithya -->
+          <div class="review-card">
+            <div class="review-stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="review-quote">
+              “Best PG in Mangalore! Affordable, comfortable and the food is just like home.”
+            </p>
+            <div class="reviewer-meta">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&auto=format&fit=crop&q=80" alt="Adithya" class="reviewer-img">
+              <div class="reviewer-info">
+                <span class="reviewer-name">– Adithya</span>
+                <span class="reviewer-role">Student (St. Aloysius)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 4: Dr. Priya -->
+          <div class="review-card">
+            <div class="review-stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="review-quote">
+              “The 24-hour access and peaceful study atmosphere make it ideal for medical interns. 10/10 recommendation!”
+            </p>
+            <div class="reviewer-meta">
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=120&auto=format&fit=crop&q=80" alt="Dr. Priya" class="reviewer-img">
+              <div class="reviewer-info">
+                <span class="reviewer-name">– Dr. Priya</span>
+                <span class="reviewer-role">Medical Intern (KMC)</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="review-action-row text-center" style="display: flex; justify-content: center; gap: 14px; flex-wrap: wrap;">
+        <a href="https://www.google.com/maps/place/One+Stay+Men%E2%80%99s+hostel/@12.869329,74.858307,17z/data=!4m8!3m7!1s0x3ba35b669ff0c28b:0x47bee73e6071db6!8m2!3d12.869329!4d74.858307!9m1!1b1!16s%2Fg%2F11tsyfs7km" 
+           target="_blank" 
+           rel="noopener" 
+           class="btn-primary-yellow">
+          <i class="fa-brands fa-google"></i>
+          <span>View All Google Reviews (4.9 ★)</span>
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+        <button class="btn-outline-yellow" onclick="openReviewModal()">
+          <i class="fa-regular fa-pen-to-square"></i> Share Your Stay Experience
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       FOOTER
+       ========================================================================= -->
+  <footer class="site-footer" id="contact">
+    <div class="container">
+      
+      <div class="footer-main-grid">
+        
+        <!-- Column 1: Brand & Slogan -->
+        <div class="footer-col brand-col">
+          <div class="brand-logo">
+            <div class="logo-icon-box">
+              <i class="fa-solid fa-house text-yellow fa-lg"></i>
+            </div>
+            <div class="logo-text-group">
+              <span class="logo-title">ONE STAY <span class="text-yellow">PG</span></span>
+              <span class="logo-subtitle">MANGALURU</span>
+            </div>
+          </div>
+          <p class="footer-bio">
+            Comfortable, secure, and affordable luxury accommodation for students and working professionals in Kankanady, Mangaluru.
+          </p>
+          <div class="social-links-row">
+            <a href="https://www.instagram.com" target="_blank" rel="noopener" class="social-icon-btn" aria-label="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com" target="_blank" rel="noopener" class="social-icon-btn" aria-label="Facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://wa.me/918722111122" target="_blank" rel="noopener" class="social-icon-btn" aria-label="WhatsApp">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Column 2: Quick Links -->
+        <div class="footer-col links-col">
+          <h4 class="footer-col-title">Quick Links</h4>
+          <ul class="footer-links-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#rooms">Rooms & Rates</a></li>
+            <li><a href="#food">Food Menu</a></li>
+            <li><a href="#amenities">Amenities</a></li>
+            <li><a href="#gallery">Photo Gallery</a></li>
+            <li><a href="#reviews">Resident Reviews</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Features & Inclusions -->
+        <div class="footer-col features-col">
+          <h4 class="footer-col-title">PG Inclusions</h4>
+          <ul class="footer-features-list">
+            <li><i class="fa-solid fa-check text-yellow"></i> 3 Times Homely Food</li>
+            <li><i class="fa-solid fa-check text-yellow"></i> High Speed Optical Wi-Fi</li>
+            <li><i class="fa-solid fa-check text-yellow"></i> 24/7 CCTV & Security Guard</li>
+            <li><i class="fa-solid fa-check text-yellow"></i> Hot Water & Power Backup</li>
+            <li><i class="fa-solid fa-check text-yellow"></i> Daily Housekeeping</li>
+            <li><i class="fa-solid fa-check text-yellow"></i> Washing Machine Facility</li>
+          </ul>
+        </div>
+
+        <!-- Column 4: Location & Contact -->
+        <div class="footer-col contact-col">
+          <h4 class="footer-col-title">Contact & Location</h4>
+          <div class="footer-contact-info">
+            <div class="contact-line">
+              <i class="fa-solid fa-location-dot text-yellow"></i>
+              <a href="https://www.google.com/maps/place/One+Stay+Men%E2%80%99s+hostel/@12.869329,74.858307,17z/data=!4m8!3m7!1s0x3ba35b669ff0c28b:0x47bee73e6071db6!8m2!3d12.869329!4d74.858307!9m1!1b1!16s%2Fg%2F11tsyfs7km" 
+                 target="_blank" 
+                 rel="noopener" 
+                 style="color: inherit; text-decoration: none;">
+                <span>One Stay Men’s Hostel, VV95+Q83, Kankanady Bypass Rd, Bendoorwell, Mangaluru 575002</span>
+              </a>
+            </div>
+            <div class="contact-line">
+              <i class="fa-solid fa-phone text-yellow"></i>
+              <a href="tel:08722111122" class="footer-phone-link">087221 11122</a>
+            </div>
+            <div class="contact-line">
+              <i class="fa-regular fa-clock text-yellow"></i>
+              <span>Open 24 Hours / 7 Days a Week</span>
+            </div>
+          </div>
+          <button class="btn-primary-yellow footer-visit-btn" onclick="openScheduleModal()">
+            <i class="fa-regular fa-calendar-check"></i>
+            <span>Schedule Room Visit</span>
+          </button>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Solid Yellow Copyright Bar -->
+    <div class="footer-bottom-bar">
+      <div class="container footer-bottom-flex">
+        <p class="copyright-text">
+          &copy; 2025 ONE STAY PG. All Rights Reserved. Built for Comfortable Living in Mangaluru.
+        </p>
+        <div class="footer-bottom-links">
+          <a href="#home">Back to Top <i class="fa-solid fa-arrow-up"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       MOBILE BOTTOM FIXED NAVIGATION BAR
+       ========================================================================= -->
+  <nav class="mobile-bottom-nav" id="mobileBottomNav" aria-label="Mobile Quick Nav">
+    <a href="#home" class="bottom-nav-item active" data-target="home">
+      <i class="fa-solid fa-house"></i>
+      <span>Home</span>
+    </a>
+    <a href="#rooms" class="bottom-nav-item" data-target="rooms">
+      <i class="fa-solid fa-bed"></i>
+      <span>Rooms</span>
+    </a>
+    <a href="#food" class="bottom-nav-item" data-target="food">
+      <i class="fa-solid fa-utensils"></i>
+      <span>Food</span>
+    </a>
+    <a href="#gallery" class="bottom-nav-item" data-target="gallery">
+      <i class="fa-solid fa-images"></i>
+      <span>Gallery</span>
+    </a>
+    <a href="#contact" class="bottom-nav-item" data-target="contact">
+      <i class="fa-solid fa-phone"></i>
+      <span>Contact</span>
+    </a>
+  </nav>
+
+  <!-- =========================================================================
+       INTERACTIVE MODALS
+       ========================================================================= -->
+
+  <!-- 1. Schedule a Visit Modal -->
+  <div class="modal-backdrop" id="scheduleModal">
+    <div class="modal-container">
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <i class="fa-regular fa-calendar-check text-yellow"></i>
+          <h3>Schedule a Visit</h3>
+        </div>
+        <button class="modal-close-btn" onclick="closeModal('scheduleModal')">&times;</button>
+      </div>
+      <form class="modal-form" id="scheduleVisitForm" onsubmit="handleScheduleSubmit(event)">
+        <p class="modal-subtitle">Pick a convenient time to tour One Stay PG, Mangaluru.</p>
+        
+        <div class="form-row">
+          <div class="form-group">
+            <label for="visitName">Full Name *</label>
+            <input type="text" id="visitName" required placeholder="e.g. Rohith Shenoy">
+          </div>
+          <div class="form-group">
+            <label for="visitPhone">Phone Number *</label>
+            <input type="tel" id="visitPhone" required placeholder="e.g. 087221 11122" pattern="[0-9]{10,11}">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="visitDate">Preferred Date *</label>
+            <input type="date" id="visitDate" required>
+          </div>
+          <div class="form-group">
+            <label for="visitTime">Preferred Time Slot *</label>
+            <select id="visitTime" required>
+              <option value="">Select Time</option>
+              <option value="Morning (9 AM - 12 PM)">Morning (9 AM - 12 PM)</option>
+              <option value="Afternoon (12 PM - 3 PM)">Afternoon (12 PM - 3 PM)</option>
+              <option value="Evening (3 PM - 7 PM)">Evening (3 PM - 7 PM)</option>
+              <option value="Night (7 PM - 9 PM)">Night (7 PM - 9 PM)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="visitRoomType">Interested Room Sharing *</label>
+          <select id="visitRoomType" required>
+            <option value="Single Room">Single Room (Private)</option>
+            <option value="Double Sharing">Double Sharing (2 Persons)</option>
+            <option value="Triple Sharing">Triple Sharing (3 Persons)</option>
+            <option value="Four Sharing">Four Sharing (4 Persons)</option>
+            <option value="Not Sure Yet">Not Sure Yet / Need Recommendation</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="visitNotes">Special Requirements / Questions</label>
+          <textarea id="visitNotes" rows="2" placeholder="e.g. AC requirement, student at Fr Muller, etc."></textarea>
+        </div>
+
+        <button type="submit" class="btn-primary-yellow submit-btn">
+          <span>Confirm Visit Request</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- 2. Weekly Homely Food Menu Modal -->
+  <div class="modal-backdrop" id="foodMenuModal">
+    <div class="modal-container modal-wide">
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <i class="fa-solid fa-utensils text-yellow"></i>
+          <h3>Weekly Homely Food Menu</h3>
+        </div>
+        <button class="modal-close-btn" onclick="closeModal('foodMenuModal')">&times;</button>
+      </div>
+      <div class="food-menu-modal-body">
+        <div class="menu-days-nav" id="menuDaysNav">
+          <button class="menu-day-tab active" data-day="mon">Monday</button>
+          <button class="menu-day-tab" data-day="tue">Tuesday</button>
+          <button class="menu-day-tab" data-day="wed">Wednesday</button>
+          <button class="menu-day-tab" data-day="thu">Thursday</button>
+          <button class="menu-day-tab" data-day="fri">Friday</button>
+          <button class="menu-day-tab" data-day="sat">Saturday</button>
+          <button class="menu-day-tab" data-day="sun">Sunday</button>
+        </div>
+        <div class="menu-slots-content" id="menuSlotsContent">
+          <!-- Populated via JavaScript -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. Room Details Quick View Modal -->
+  <div class="modal-backdrop" id="roomDetailModal">
+    <div class="modal-container modal-wide">
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <i class="fa-solid fa-bed text-yellow"></i>
+          <h3 id="roomModalTitle">Single Room Details</h3>
+        </div>
+        <button class="modal-close-btn" onclick="closeModal('roomDetailModal')">&times;</button>
+      </div>
+      <div class="room-modal-body" id="roomModalBody">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- 4. Interactive Location & Google Map Modal -->
+  <div class="modal-backdrop" id="mapModal">
+    <div class="modal-container modal-wide">
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <i class="fa-solid fa-location-dot text-yellow"></i>
+          <h3>One Stay PG Location & Route</h3>
+        </div>
+        <button class="modal-close-btn" onclick="closeModal('mapModal')">&times;</button>
+      </div>
+      <div class="map-modal-body">
+        <div class="map-address-banner">
+          <div class="map-address-text">
+            <strong>Address:</strong> One Stay Men’s Hostel, VV95+Q83, Kankanady Bypass Rd, Bendoorwell, Kankanady, Mangaluru, Karnataka 575002
+          </div>
+          <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+            <a href="https://www.google.com/maps/place/One+Stay+Men%E2%80%99s+hostel/@12.869329,74.858307,17z/data=!4m8!3m7!1s0x3ba35b669ff0c28b:0x47bee73e6071db6!8m2!3d12.869329!4d74.858307!9m1!1b1!16s%2Fg%2F11tsyfs7km" 
+               target="_blank" 
+               rel="noopener" 
+               class="btn-primary-yellow map-dir-btn">
+              <i class="fa-brands fa-google"></i> View Google Reviews
+            </a>
+            <a href="https://www.google.com/maps/dir//One+Stay+Men%E2%80%99s+hostel,+Kankanady+Bypass+Rd,+Bendoorwell,+Kankanady,+Mangaluru,+Karnataka+575002/@12.869329,74.858307,17z" 
+               target="_blank" 
+               rel="noopener" 
+               class="btn-secondary-white map-dir-btn">
+              <i class="fa-solid fa-diamond-turn-right text-yellow"></i> Get Directions
+            </a>
+          </div>
+        </div>
+        
+        <div class="map-iframe-container">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.8436817173874!2d74.8582586!3d12.8694904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba35b669ff0c28b%3A0x47bee73e6071db6!2sOne+Stay+Men%E2%80%99s+hostel!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+            width="100%" 
+            height="380" 
+            style="border:0; border-radius: 12px;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"
+            title="One Stay PG Location Map">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5. Full Screen Lightbox Modal -->
+  <div class="lightbox-modal" id="lightboxModal" onclick="closeLightbox(event)">
+    <button class="lightbox-close" onclick="closeLightboxDirect()">&times;</button>
+    <button class="lightbox-nav-btn prev" onclick="changeLightboxImage(-1)">&lang;</button>
+    <div class="lightbox-content-box">
+      <img src="" alt="One Stay PG Gallery" id="lightboxImage">
+      <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+    <button class="lightbox-nav-btn next" onclick="changeLightboxImage(1)">&rang;</button>
+  </div>
+
+  <!-- 6. Share Review Modal -->
+  <div class="modal-backdrop" id="reviewModal">
+    <div class="modal-container">
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <i class="fa-solid fa-star text-yellow"></i>
+          <h3>Share Your Review</h3>
+        </div>
+        <button class="modal-close-btn" onclick="closeModal('reviewModal')">&times;</button>
+      </div>
+      <form class="modal-form" id="reviewForm" onsubmit="handleReviewSubmit(event)">
+        <p class="modal-subtitle">Your feedback helps us continuously elevate our resident experience.</p>
+        
+        <div class="form-group">
+          <label for="reviewAuthor">Your Name *</label>
+          <input type="text" id="reviewAuthor" required placeholder="e.g. Rahul Shenoy">
+        </div>
+
+        <div class="form-group">
+          <label for="reviewDesignation">Your Role / College *</label>
+          <input type="text" id="reviewDesignation" required placeholder="e.g. Student at KMC / Software Engineer">
+        </div>
+
+        <div class="form-group">
+          <label>Rating *</label>
+          <div class="rating-star-selector" id="starSelector">
+            <i class="fa-solid fa-star selected" data-value="1"></i>
+            <i class="fa-solid fa-star selected" data-value="2"></i>
+            <i class="fa-solid fa-star selected" data-value="3"></i>
+            <i class="fa-solid fa-star selected" data-value="4"></i>
+            <i class="fa-solid fa-star selected" data-value="5"></i>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="reviewMessage">Your Review *</label>
+          <textarea id="reviewMessage" rows="3" required placeholder="Tell us about the rooms, food, staff, and overall vibe..."></textarea>
+        </div>
+
+        <button type="submit" class="btn-primary-yellow submit-btn">
+          <span>Submit Review</span>
+          <i class="fa-solid fa-paper-plane"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Floating Toast Notification Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- Main JavaScript File -->
+  <script src="app.js"></script>
+</body>
+</html>
