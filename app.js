@@ -76,13 +76,13 @@ const WEEKLY_CAROUSEL_DATA = [
         type: 'Lunch',
         title: 'Rice, Sambar, Pappad, Vegetable',
         desc: 'Steamed rice, traditional lentil sambar, roasted pappad, mixed vegetable upkari & buttermilk.',
-        image: 'https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=700&auto=format&fit=crop&q=80'
+        image: 'images/wednesday_lunch.png'
       },
       {
         type: 'Dinner',
         title: 'Rice, Dal Kebab, Thoran, Sagu',
         desc: 'Steamed rice, crispy seasoned dal kebabs, Kerala-style coconut thoran & savory vegetable sagu.',
-        image: 'https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=700&auto=format&fit=crop&q=80'
+        image: 'images/wednesday_dinner.png'
       }
     ]
   },
@@ -99,13 +99,13 @@ const WEEKLY_CAROUSEL_DATA = [
         type: 'Lunch',
         title: 'Rice, Sambar, Pappad, Vegetable',
         desc: 'Nutritious steamed rice, fresh vegetable sambar, crunchy roasted pappad & beans poriyal.',
-        image: 'https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=700&auto=format&fit=crop&q=80'
+        image: 'images/thursday_lunch.png'
       },
       {
         type: 'Dinner',
         title: 'Chicken Curry, Rice, Fried Rice',
         desc: 'Savory homestyle chicken curry, fragrant fried rice & steamed white rice with pepper rasam.',
-        image: 'https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=700&auto=format&fit=crop&q=80'
+        image: 'images/thursday_dinner.png'
       }
     ]
   },
