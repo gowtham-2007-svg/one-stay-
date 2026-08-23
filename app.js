@@ -151,7 +151,7 @@ const WEEKLY_CAROUSEL_DATA = [
         type: 'Dinner',
         title: 'Veg Rice, Sambar, Chapati',
         desc: 'Soft hot chapatis, seasoned vegetable rice, homestyle sambar & fresh dal fry.',
-        image: 'https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=700&auto=format&fit=crop&q=80'
+        image: 'images/saturday_dinner.png'
       }
     ]
   },
@@ -162,19 +162,19 @@ const WEEKLY_CAROUSEL_DATA = [
         type: 'Breakfast',
         title: 'Mangalore Buns',
         desc: 'Authentic coastal sweet banana buns with spicy coconut chutney and piping hot filter coffee.',
-        image: 'https://images.unsplash.com/photo-1601050690597-df0568f70950?w=700&auto=format&fit=crop&q=80'
+        image: 'images/sunday_breakfast.png'
       },
       {
         type: 'Lunch',
-        title: 'Egg Rice, Sambar, Vegetable',
-        desc: 'Flavorful spiced egg fried rice / boiled egg thali, aromatic sambar, vegetable side & curd.',
-        image: 'https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=700&auto=format&fit=crop&q=80'
+        title: 'Egg Rice',
+        desc: 'Flavorful spiced egg fried rice with scrambled eggs, onion, coriander & pickle.',
+        image: 'images/sunday_lunch.png'
       },
       {
         type: 'Dinner',
-        title: 'Chapati, Curry, Sambar Special',
-        desc: 'Soft wheat phulkas, savory chicken / paneer gravy, steamed rice, rasam & Sunday dessert.',
-        image: 'https://images.unsplash.com/photo-1546833998-877b37c2e5c6?w=700&auto=format&fit=crop&q=80'
+        title: 'Chapati, Sambar, Veg',
+        desc: 'Soft wheat chapatis, homestyle sambar, steamed rice and seasonal vegetable sabzi.',
+        image: 'images/sunday_dinner.png'
       }
     ]
   }
